@@ -1,8 +1,26 @@
-<nav>
-  <a routerLink="lessons" routerLinkActive="active" ariaCurrentWhenActive="page">Lessons</a>
-  <a routerLink="repetitions" routerLinkActive="active" ariaCurrentWhenActive="page">Repetitions</a>
-  <a routerLink="games" routerLinkActive="active" ariaCurrentWhenActive="page">Games</a>
-  <a routerLink="forum" routerLinkActive="active" ariaCurrentWhenActive="page">Forum</a>
-  <a routerLink="profile" routerLinkActive="active" ariaCurrentWhenActive="page">Profile</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" routerLink="" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a>
+        <a class="nav-link" routerLink="lessons" routerLinkActive="active" ariaCurrentWhenActive="page">Lessons</a>
+        <a class="nav-link" routerLink="repetitions" routerLinkActive="active" ariaCurrentWhenActive="page">Repetitions</a>
+        <a class="nav-link" routerLink="games" routerLinkActive="active" ariaCurrentWhenActive="page">Games</a>
+        <a class="nav-link" routerLink="forum" routerLinkActive="active" ariaCurrentWhenActive="page">Forum</a>
+        <a class="nav-link" routerLink="profile" routerLinkActive="active" ariaCurrentWhenActive="page">Profile</a>
+      </div>
+    </div>
+  </div>
 </nav>
+
 <router-outlet></router-outlet>
