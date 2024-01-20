@@ -6,6 +6,7 @@ import {GamesComponent} from "./games/games.component";
 import {RepetitionsComponent} from "./repetitions/repetitions.component";
 import {ForumComponent} from "./forum/forum.component";
 import {ProfileComponent} from "./profile/profile.component";
+import {DictionaryComponent} from "./dictionary/dictionary.component";
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -13,7 +14,9 @@ const routes: Routes = [
   {path: 'repetitions', component: RepetitionsComponent},
   {path: 'games', component: GamesComponent},
   {path: 'forum', component: ForumComponent},
-  {path: 'profile', component: ProfileComponent}];
+  {path: 'dictionary', component: DictionaryComponent},
+  {path: 'profile', component: ProfileComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
