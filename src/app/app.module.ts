@@ -9,6 +9,7 @@ import { RepetitionsComponent } from './repetitions/repetitions.component';
 import { ForumComponent } from './forum/forum.component';
 import { GamesComponent } from './games/games.component';
 import { ProfileComponent } from './profile/profile.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ProfileComponent } from './profile/profile.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
